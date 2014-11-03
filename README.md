@@ -8,8 +8,10 @@ This is a simple web server that responds to POST requests from ZoHo CRM webhook
 
 ## Example
 
-TODO
-
+    export GO_GMAIL_USERNAME=name@gmail.com
+    export GO_GMAIL_PASSWORD=myPassword1
+    ./zoho-hooks
+  
 ## Copyright
 
 Copyright 2014 Dillon Hafer
