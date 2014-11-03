@@ -93,13 +93,6 @@ func sendEmail() http.HandlerFunc {
 		if err != nil {
 			log.Print("ERROR: attempting to send a mail ", err)
 		}
-		//err := mc.Run(cmd)
-		//fmt.Prinjktln(r.FormValue("email"))
-		//if err != nil {
-		//	w.WriteHeader(http.StatusInternalServerError)
-		//	fmt.Fprintf(w, "Error: %v", err)
-		//	return
-		//}
 	}
 }
 
