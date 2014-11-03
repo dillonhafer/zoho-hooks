@@ -10,7 +10,7 @@ This is a simple web server that responds to POST requests from ZoHo CRM webhook
 
     export GO_GMAIL_USERNAME=name@gmail.com
     export GO_GMAIL_PASSWORD=myPassword1
-    ./zoho-hooks
+    ./zoho-webhooks
   
 ## Copyright
 
