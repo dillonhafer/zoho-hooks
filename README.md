@@ -4,7 +4,7 @@ This is a simple web server that responds to POST requests from ZoHo CRM webhook
 
 ## Usage
 
-    usage:  zoho_webhooks
+    usage:  zoho-webhooks
 
 ## Example
 
