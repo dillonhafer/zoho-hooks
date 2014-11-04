@@ -55,16 +55,17 @@ func sendEmail() http.HandlerFunc {
 		var err error
 		var doc bytes.Buffer
 
-		const emailTemplate = `From: &#123;&#123;.From&#125;&#125;
-		To: &#123;&#123;.To&#125;&#125;
-		Subject: &#123;&#123;.Subject&#125;&#125;
+		const emailTemplate = `From: {{.From}}
+To: {{.To}}
+Subject: {{.Subject}}
 
-		&#123;&#123;.Body&#125;&#125;
+{{.Body}}
 
-		Sincerely,
+Sincerely,
 
-		&#123;&#123;.From&#125;&#125;
-		`
+{{.From}}
+`
+
 		context := &Template{
 			"dh@dillonhafer.com",
 			"dh@dillonhafer.com",
